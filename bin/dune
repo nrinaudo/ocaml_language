@@ -1,0 +1,9 @@
+(executable
+ (public_name ocaml_language)
+ (name main)
+ (libraries ocaml_language))
+
+(env
+ (dev
+  (flags
+   (:standard -warn-error -A))))
