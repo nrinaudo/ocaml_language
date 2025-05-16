@@ -1,4 +1,5 @@
 open Expr
+open Parser
 
 let sum =
   LetRec
